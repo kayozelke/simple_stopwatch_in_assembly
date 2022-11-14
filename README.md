@@ -1,4 +1,5 @@
-# simple_stopwatch_in_assembly
+# Simple stopwatch in assembly
+
 Działanie stopera:
   - rozdzielczość wyświetlania czasu wynosi 10ms, maksymalny czas wyświetlany przez stoper to 99,99, po przekroczeniu tej wartości stoper jest zerowany i kontynuuje liczenie,
   - po uruchomieniu ekran LCD wyświetla wartość 00,00 (format ss,MM, gdzie ss - sekundy, MM - dziesiątki milisekund),
