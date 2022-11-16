@@ -86,11 +86,11 @@ STOPER:
 	MOV R7,#1			;ustaw ponownie R7:1*10ms=10ms
 
 	MOV A, R2
-	CJNE A, #99, LICZMS
+	CJNE A, #100, LICZMS
 	MOV R2, #0
 
 	MOV A, R1
-	CJNE A, #99, LICZS
+	CJNE A, #100, LICZS
 	MOV R1, #0
 
 	RET 				;powrót z podprogramu
